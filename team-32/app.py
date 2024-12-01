@@ -129,9 +129,9 @@ def get_database_connection():
         # Create a cursor object
         with connection.cursor() as cursor:
             # Create the database if it does not exist
-            database_name = os.getenv('DB_NAME', 'AdminAccess') 
+            database_name = os.getenv('DB_NAME', 'resume_Anlyser') 
             cursor.execute(f"CREATE DATABASE IF NOT EXISTS `{database_name}`")
-            #cursor.execute("CREATE DATABASE IF NOT EXISTS {os.getenv('DB_NAME', 'AdminAccess')}")
+            #cursor.execute("CREATE DATABASE IF NOT EXISTS {os.getenv('DB_NAME', 'resume_Anlyser')}")
 
         # Reconnect to the MySQL server with the database
         connection.close()
@@ -139,7 +139,7 @@ def get_database_connection():
             host=os.getenv('DB_HOST', 'localhost'),
             user=os.getenv('DB_USER', 'root'),
             password=os.getenv('DB_PASSWORD', 'SQLpassword'),
-            database=os.getenv('DB_NAME', 'AdminAccess'),
+            database=os.getenv('DB_NAME', 'resume_Anlyser'),
         )
 
         return connection
@@ -805,7 +805,7 @@ def store_feedback(feedback_data):
             host=os.getenv('DB_HOST', 'localhost'),
             user=os.getenv('DB_USER', 'root'),
             password=os.getenv('DB_PASSWORD', 'SQLpassword'),
-            database=os.getenv('DB_NAME', 'AdminAccess'),
+            database=os.getenv('DB_NAME', 'resume_Anlyser'),
         )
         
         with connection.cursor() as cursor:
@@ -875,7 +875,7 @@ def store_user_data(user_data):
             host=os.getenv('DB_HOST', 'localhost'),
             user=os.getenv('DB_USER', 'root'),
             password=os.getenv('DB_PASSWORD', 'SQLpassword'),
-            database=os.getenv('DB_NAME', 'AdminAccess'),
+            database=os.getenv('DB_NAME', 'resume_Anlyser'),
         )
         
         with connection.cursor() as cursor:
@@ -1053,7 +1053,7 @@ def get_user_data():
             host=os.getenv('DB_HOST', 'localhost'),
             user=os.getenv('DB_USER', 'root'),
             password=os.getenv('DB_PASSWORD', 'SQLpassword'),
-            database=os.getenv('DB_NAME', 'AdminAccess')
+            database=os.getenv('DB_NAME', 'resume_Anlyser')
         )
         
         with connection.cursor() as cursor:
@@ -1078,7 +1078,7 @@ def get_feedback_data():
             host=os.getenv('DB_HOST', 'localhost'),
             user=os.getenv('DB_USER', 'root'),
             password=os.getenv('DB_PASSWORD', 'SQLpassword'),
-            database=os.getenv('DB_NAME', 'AdminAccess'),
+            database=os.getenv('DB_NAME', 'resume_Anlyser'),
         )
         
         with connection.cursor() as cursor:

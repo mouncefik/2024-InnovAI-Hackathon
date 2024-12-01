@@ -1,4 +1,3 @@
-
 # AI Resume Analyzer
 
 ## Overview
@@ -14,7 +13,7 @@ The **AI Resume Analyzer** is a comprehensive web application developed using St
 
 ## Technologies Used
 - **Frontend**: Streamlit for user interface
-- **Backend**: Python with libraries such as Pandas, Spacy, NLTK, Selenium, Plotly, beautifulsoup adn openai 
+- **Backend**: Python with libraries such as Pandas, Spacy, NLTK, Selenium, and Plotly
 - **Database**: MySQL for storing user and feedback data
 - **PDF Parsing**: pdfminer for text extraction from resumes
 - **NLP**: Spacy and NLTK for text processing and entity recognition
@@ -75,38 +74,4 @@ Your resume data is only used during your session for analysis and is not perman
 1. **Slow Job Finding Process**: The job search feature using web scraping can be slow, affecting user experience. Optimization efforts are in progress to improve response times.
 2. **Improper Admin Visualization**: The admin dashboard may show inconsistent or unclear visual representations of user data. Enhancements to data visualization are planned for the next update.
 3. **Limited Feedback Options**: The current feedback system provides basic text input, limiting user interaction. An expanded feedback mechanism with more structured input options will be implemented soon.
-
-## Running the Project
-To run the project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mouncefik/talent-triage.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up the database:
-   - Ensure you have a MySQL server running.
-   - Create a database named `resume_analyzer`.
-   - Configure `.env` with your database credentials:
-     ```
-     DB_HOST=localhost
-     DB_USER=root
-     DB_PASSWORD=yourpassword
-     DB_NAME=resume_analyzer
-     NEBIUS_API_KEY=""
-     ```
-4. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
-
-## Troubleshooting
-If you encounter any issues during the installation or running process, please refer to the following troubleshooting steps:
-
-* Ensure that you have the latest version of pip installed by running `pip install --upgrade pip`.
-* Verify that your MySQL server is running and that you have created the `resume_analyzer` database.
-* Check that your `.env` file is correctly configured with your database credentials.
-* If you encounter any errors during the installation process, try reinstalling the dependencies by running `pip install -r requirements.txt`.
+These issues are actively being worked on, and improvements will be released in future updates to enhance functionality and user experience.

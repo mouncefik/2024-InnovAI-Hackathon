@@ -3,7 +3,11 @@
 
 ## Overview
 The **AI Resume Analyzer** is a comprehensive web application developed using Streamlit that empowers users to gain insights into their resumes, identify skill gaps, and receive relevant course and job recommendations. This application leverages advanced NLP tools, resume parsing, and machine learning to provide users with personalized resume feedback, recommended fields, and job opportunities.
-[![demo](/team-32/asset/thumb.jpg)](/team-32/asset/demo.mp4)
+
+
+https://github.com/user-attachments/assets/9f39dbad-5aae-467e-bb40-ee42b90b84a8
+
+
 ## Key Features
 - **Resume Analysis**: Extracts and analyzes the content of resumes to highlight skills, education, and work experience.
 - **Skill and Field Recommendations**: Suggests courses and fields based on the analyzed skills.

@@ -16,6 +16,16 @@ https://github.com/user-attachments/assets/9f39dbad-5aae-467e-bb40-ee42b90b84a8
 - **Admin Dashboard**: Provides an admin interface for managing and visualizing user data and feedback, including analytics such as user activity and experience distribution.
 - **Chatbot**: Our application includes a chatbot feature that assists recruiters in obtaining information about candidates, streamlining communication and enhancing the overall recruitment process.
 
+## Impact and Proposed Solution
+
+**Problem**:  
+In Morocco, recruiters often receive an overwhelming number of resumes, sometimes up to 400 within just 48 hours. This makes it nearly impossible for recruiters to thoroughly review each one, causing delays in the recruitment process and potentially missing out on qualified candidates.
+
+**Impact**:  
+The **AI Resume Analyzer** significantly alleviates the burden on recruiters by automating the initial stages of resume evaluation. It not only helps recruiters save valuable time by quickly identifying the most relevant resumes but also provides job seekers with personalized feedback and recommendations for improvement. This helps job seekers enhance their resumes and better align their skills with the needs of the job market.
+
+**Proposed Solution**:  
+To address the challenge faced by Moroccan recruiters, our application uses advanced resume analysis techniques to automatically process large numbers of resumes, highlighting key skills, qualifications, and areas for improvement. Recruiters can quickly assess candidate profiles, saving time while ensuring no potential talent is overlooked. Meanwhile, job seekers benefit from tailored recommendations on which skills to improve and which fields to pursue, boosting their chances of securing employment.
 ## Technologies Used
 - **Frontend**: Streamlit for user interface
 - **Backend**: Python with libraries such as Pandas, Spacy, NLTK, Selenium, Plotly, beautifulsoup adn openai 
